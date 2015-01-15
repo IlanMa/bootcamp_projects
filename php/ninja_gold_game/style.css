@@ -1,0 +1,57 @@
+.buildings {
+	border: 1px solid black;
+	display: inline-table;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+.submit {
+	margin-top: 25px;
+	background-color: white;
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+#activities {
+	border: 1px solid black;
+	width: 818px;
+	height: 150px;
+	overflow: auto;
+}
+
+#gold div {
+	border: 2px solid black;
+	width: 150px;
+	height: 34px;
+	margin-left: 130px;
+	display: inline-table;
+	position: absolute;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 4px;
+}
+
+#gold h2 {
+	display: inline-table;
+	padding: 0px;
+	margin-top: 8px;
+	position: absolute;
+}
+
+#gold {
+	height: 50px;
+}
+
+#activities p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}

@@ -1,0 +1,11 @@
+<h1>Welcome to QuotingDojo</h1>
+<%= form_for(@quote) do |f| %>
+	<%= f.label :name, "Your name" %>
+	<%= f.text_field :name %><br>
+	<%= f.label :stuff, "Your quote" %>
+	<%= f.text_field :stuff %><br>
+	<%= f.submit "Add my quote!" %>
+<% end %>
+
+<p id="button"><%= button_to 'Skip to Quotes', '/stuffs/result',  :method => "get" %></P>
+

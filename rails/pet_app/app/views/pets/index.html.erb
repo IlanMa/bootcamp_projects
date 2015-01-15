@@ -1,0 +1,8 @@
+<h1>Here are all the pets!</h1>
+
+<% @pets.each do |pet| %>
+	<h2>Name is: <%= pet.name %> </h2>
+	<h2>Breed is: <%= pet.breed %> </h2><br>
+<% end %>
+
+<%= link_to 'add new pet', '/pets/new' %>

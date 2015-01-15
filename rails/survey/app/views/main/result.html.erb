@@ -1,0 +1,9 @@
+<p>Thanks for submitting this form! You have submitted this form
+ <%= session[:counter] %> times now</p>
+<h3>Submitted Information</h3>
+<p>Name: <%= @values['name'] %></p>
+<p>Dojo Location: <%= @values['location'] %></p>
+<p>Favorite Language: <%= @values['language'] %></p>
+<p>Comment: <%= @values['comment'] %></p>
+
+<a href="/main/index">Back</a>

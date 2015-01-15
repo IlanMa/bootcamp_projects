@@ -1,0 +1,20 @@
+<div>
+	<form action="/main/result" method="post">​
+		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">​
+		Name: <input type="text" name="name"><br>​
+		Dojo Location: <select name="location">​
+			<option value="Mountain View">mountain view</option>​
+			<option value="seattle">seattle</option>​
+		</select><br>​
+		Favorite Language: <select name="language">​
+			<option value="Javascript">Javascript</option>​
+			<option value="php">Ruby</option>​
+			<option value="ruby">PHP</option>​
+		</select><br>​
+		Comment (optional): <br><textarea name="comment" id="" cols="40" rows="5"></textarea><br>​
+		<input type="submit">​
+	​</form>​
+	<% if @values %>
+		<p><%= @values %><p>
+	<% end %>
+</div>

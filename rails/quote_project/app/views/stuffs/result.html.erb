@@ -1,0 +1,11 @@
+<h1>Here are the awesome quotes!</h1>
+
+<% @quotes.each do |quote| %>
+	<div id="test">
+		<p>"<%= quote.stuff %>"</p>
+		<h5>-<%= quote.name %> at <%= quote.created_at.strftime("%I:%M %p %b %d %Y") %></p>
+	</div>
+<% end %>
+
+<%= button_to 'Return Back', '/stuffs/index', method: "get" %>
+
